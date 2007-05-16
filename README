@@ -1,0 +1,43 @@
+WWW-Nike-NikePlus version 0.01
+==============================
+
+WWW-Nike-NikePlus provides a Perl interface to the Nike+ running site at www.nikeplus.com.
+
+You can:
+	Authenticate to Nike+ and obtain the login token and cookie
+	Retrieve your last run data
+	Retrieve your personal settings (name, perferred units, avatar etc.)
+	Retrieve data on all your runs, ever
+	Get specific pace information on a run (not yet implemented, sorry!)
+	List all your goals and whether you've completed them or not
+	List all your challenges
+	See who's taking part in your challenges, and how they're doing
+	Display direct URL links to home page/runs/goals/challenges that use the token to bypass login (CAUTION!)
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  LWP::Simple (with SSL support)
+  LWP::Simple::Cookies
+  XML::Simple
+  Time::Duration
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2007 by Alex Lomas
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+
+
