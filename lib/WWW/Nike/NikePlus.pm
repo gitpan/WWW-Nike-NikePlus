@@ -31,7 +31,7 @@ our @EXPORT = qw( 	nike_last_run nike_run_totals nike_run_averages nike_runs_lis
 			nike_authenticate nike_web_links
 		);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 # Preloaded methods go here.
@@ -373,7 +373,7 @@ __END__
 
 =head1 NAME
 
-WebService::NikePlus - Perl extension for retrieving running data from www.nikeplus.com
+WWW::Nike::NikePlus - Perl extension for retrieving running data from www.nikeplus.com
 
 =head1 SYNOPSIS
 
