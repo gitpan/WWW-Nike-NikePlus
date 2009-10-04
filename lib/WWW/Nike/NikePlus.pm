@@ -1,6 +1,6 @@
 package WWW::Nike::NikePlus;
 
-use 5.008008;
+use 5.006;
 use strict;
 use warnings;
 
