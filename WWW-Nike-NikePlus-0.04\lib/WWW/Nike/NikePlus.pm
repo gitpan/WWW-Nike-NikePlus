@@ -31,7 +31,7 @@ our @EXPORT = qw( 	nike_last_run nike_run_totals nike_run_averages nike_runs_lis
 			nike_authenticate nike_web_links
 		);
 
-our $VERSION = '0.02';
+our $VERSION = '0.04';
 
 
 # Preloaded methods go here.
@@ -39,13 +39,13 @@ our $VERSION = '0.02';
 #These are some known URLs for Nike+ - they could change...
 my $nike_front_page = "https://www.nike.com/nikeplus";
 
-my $nike_auth_url = "https://www.nike.com/nikeplus/v1/services/app/generate_pin.jhtml";
-my $user_data_url = "https://www.nike.com/nikeplus/v1/services/app/get_user_data.jhtml";
-my $user_goal_url = "https://www.nike.com/nikeplus/v1/services/app/goal_list.jhtml";
-my $user_chal_url = "https://www.nike.com/nikeplus/v1/services/widget/get_challenges_for_user.jhtml";
-my $chal_detail_url = "https://www.nike.com/nikeplus/v1/services/app/get_challenge_detail.jhtml";
-my $user_runs_url = "https://www.nike.com/nikeplus/v1/services/app/run_list.jhtml";
-my $run_detail_url = "https://www.nike.com/nikeplus/v1/services/app/get_run.jhtml";
+my $nike_auth_url = "https://www.nike.com/nikeplus/v1/services/app/generate_pin.jsp";
+my $user_data_url = "https://www.nike.com/nikeplus/v1/services/app/get_user_data.jsp";
+my $user_goal_url = "https://www.nike.com/nikeplus/v1/services/app/goal_list.jsp";
+my $user_chal_url = "https://www.nike.com/nikeplus/v1/services/widget/get_challenges_for_user.jsp";
+my $chal_detail_url = "https://www.nike.com/nikeplus/v1/services/app/get_challenge_detail.jsp";
+my $user_runs_url = "https://www.nike.com/nikeplus/v1/services/app/run_list.jsp";
+my $run_detail_url = "https://www.nike.com/nikeplus/v1/services/app/get_run.jsp";
 
 
 
